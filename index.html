@@ -3,9 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Minimalist X Clone</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .tweet-box {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .tweet-list {
+            border-top: 1px solid #ccc;
+        }
+        .tweet {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>TEST</h1>
+    <h1>Minimalist X</h1>
+    <div class="tweet-box">
+        <textarea placeholder="What's happening?" rows="3" style="width: 100%;"></textarea>
+        <button>Tweet</button>
+    </div>
+    <div class="tweet-list">
+        <div class="tweet">
+            <strong>User1</strong>
+            <p>This is a sample tweet. #minimalist</p>
+        </div>
+        <div class="tweet">
+            <strong>User2</strong>
+            <p>Another sample tweet. Keeping it simple!</p>
+        </div>
+    </div>
 </body>
 </html>
